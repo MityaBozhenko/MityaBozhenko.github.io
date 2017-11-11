@@ -1,31 +1,23 @@
 @media (min-width: 0px) and (max-width: 768px) {
-	
-
 	html{
-
 		font-size: 5px;
 	}
 	footer p{
-
 		margin:4rem 0;
 	}
 	#offer {
 		width: 200px;
 	}
 	.social-links {
-
 		font-size: 1.5rem;
 	}
 	.modal {
-
 		text-align: center;
 	}
 	.modal-title {
-
 		text-align: center;
 	}
 	.modal-btn {
-
 		width: 200px;
 		margin: 2rem auto;
 	}
