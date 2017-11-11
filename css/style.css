@@ -1,225 +1,32 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-* {
-	box-sizing: border-box;
-	font-family: 'Open Sans', sans-serif;
-}
-html {
-
-	font-size: 10px;
-}
-
-.main {
-	
-	display: table;
-	width: 100%;
-	height: 100%;
-	background-image: url(../img/main-bg.jpg);
-}
-.page-wrapper{
-	position: relative;
-	height: 100vh;
-	width: 100%;
-	/*background-color: #000;*/
-	display: table-cell;
-	vertical-align: middle;
-}
-.main-header{
-	position: relative;
-	z-index: 4;
-	text-align: center;
-	text-transform: uppercase;
-	color: #fff;
-
-}
-.main-header h1 {
-	font-size: 4.8rem;
-	margin-bottom: 2rem;
-}
-.main-header p{
-	font-size: 3rem;
-}
-.main-line {
-
-	width: 250px;
-	height: 1px;
-	margin: 0 auto;
-	background-color: #fff;
-}
-.main-overlay {
-	z-index: 1;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
-
-}
-i.icon-down-open {
-	z-index: 5;
-	display: inline-block;
-	line-height: 40px;
-	width: 50px;
-	height: 50px;
-	position: absolute;
-	bottom: 2rem;
-	font-size: 2.5rem;
-	cursor: pointer;
-	transition: 0.3s all;
-	color: rgba(255, 255, 255, 0.7);
-	right: 48%;
-	padding-left: 5px;
-	border:3px solid transparent;
-	border-radius: 50%;
-	
-}
-
-i.icon-down-open:hover {
-	
-	border-color: #fff;
-	color: rgba(255, 255, 255, 1);
-
-}
-.portfolio {
-
-	text-align: center;
-}
-.portfolio .row{
-
-	margin-bottom: 10rem;
-}
-.portfolio .section-header {
-
-	text-align: center;
-	text-transform: uppercase;
-	padding: 10rem 0;
-	font-size: 3rem;
-	font-weight: 900;
-}
-.portfolio img {
-	width: 100%;
-	height: 100%;
-	max-height: 300px;
-	max-width: 360px;
-	margin-bottom: 2rem;
-	box-shadow: 0px 4px 29px 0px rgba(87, 92, 97, 0.55);
-
-}
-.portfolio a:focus {
-
-	outline: none;
-	text-decoration: none
-}
-.portfolio a {
-	
-	display: block;
-	text-decoration: none;
-	transition: 0.2s all;
-	color: rgba(0, 0, 0, 0.7);
-	font-size: 2.4rem;
-	cursor: pointer;
-	margin-bottom: 2rem;
-
-}
-.portfolio a:hover {
-
-	color: rgba(0, 0, 0, 1);
-	border-color: #000;
-}
-footer {
-	text-align: center;
-	background-color: #646464;
-	color: #fff;
-	font-size: 2.4rem;
-	padding-bottom: 3rem;
-}
-.social-links  i{
-
-	display: inline-block;
-	width: 5rem;
-	height: 5rem;
-	line-height: 4.5rem;
-	color: #fff;
-	font-size: 2rem;
-	margin-left: 1rem;
-	margin-right: 2rem;
-	border: 3px solid #fff;
-	border-radius: 50%;
-	transition: 0.2s all;
-
-}
-.social-links  i::nth-child(1){
-
-	padding-left: 0.5rem;
-}
-.social-links  i:hover {
-
-color: #646464;
-background-color: #fff;
-
-}
-
-#offer {
-	margin: 0 auto;
-	cursor: pointer;
-	display: block;
-	width: 80%;
-	border:3px solid #fff;
-	border-radius: 100px;
-	transition: 0.2s all;
-	padding: 10px;
-}
-#offer a{
-	text-decoration: none;
-	color: #fff;
-}
-#offer:hover a{
-
-	color: #646464;
-	
-}
-#offer:hover{
-
-	background-color: #fff;
-	
-}
-
-.modal img{
-	width: 100%;
-}
-.close {
-	background-color: transparent;
-	border: none;
-	position: absolute;
-	right: 2rem;
-	top: 1rem;
-	font-size: 3rem;
-}
-.modal-title {
-
-	font-weight: 800;
-	font-size: 2rem;
-}
-.modal-btn{
-	text-align: center;
-	color:#fff;
-	background-color: #333;
-	padding: 1rem;
-	text-decoration: none;
-	display: block;
-	width: 60%;
-	border: 3px solid #333;
-	border-radius: 100px;
-	text-transform: none;
-	transition: 0.2s all;
-}
-.modal-btn:hover a{
-	
-	text-decoration: none;
-	color: #646464;	
-
-}
-.modal-btn:hover {
-
-	background-color: #fff;
-}
-
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');*{box-sizing:border-box;font-family:'Open Sans', sans-serif;}
+html{font-size:10px;}
+.main{display:table;width:100%;height:100%;background-image:url(../img/main-bg.jpg);}
+.page-wrapper{position:relative;height:100vh;width:100%;display:table-cell;vertical-align:middle;}
+.main-header{position:relative;z-index:4;text-align:center;text-transform:uppercase;color:#fff;}
+.main-header h1{font-size:4.8rem;margin-bottom:2rem;}
+.main-header p{font-size:3rem;}
+.main-line{width:250px;height:1px;margin:0 auto;background-color:#fff;}
+.main-overlay{z-index:1;position:absolute;width:100%;height:100%;background-color:rgba(0, 0, 0, 0.5);}
+i.icon-down-open{z-index:5;display:inline-block;line-height:40px;width:50px;height:50px;position:absolute;bottom:2rem;font-size:2.5rem;cursor:pointer;transition:0.3s all;color:rgba(255, 255, 255, 0.7);right:48%;padding-left:5px;border:3px solid transparent;border-radius:50%;}
+i.icon-down-open:hover{border-color:#fff;color:rgba(255, 255, 255, 1);}
+.portfolio{text-align:center;}
+.portfolio .row{margin-bottom:10rem;}
+.portfolio .section-header{text-align:center;text-transform:uppercase;padding:10rem 0;font-size:3rem;font-weight:900;}
+.portfolio img{width:100%;height:100%;max-height:300px;max-width:360px;margin-bottom:2rem;box-shadow:0px 4px 29px 0px rgba(87, 92, 97, 0.55);}
+.portfolio a:focus{outline:none;text-decoration:none}
+.portfolio a{display:block;text-decoration:none;transition:0.2s all;color:rgba(0, 0, 0, 0.7);font-size:2.4rem;cursor:pointer;margin-bottom:2rem;}
+.portfolio a:hover{color:rgba(0, 0, 0, 1);border-color:#000;}
+footer{text-align:center;background-color:#646464;color:#fff;font-size:2.4rem;padding-bottom:3rem;}
+.social-links i{display:inline-block;width:5rem;height:5rem;line-height:4.5rem;color:#fff;font-size:2rem;margin-left:1rem;margin-right:2rem;border:3px solid #fff;border-radius:50%;transition:0.2s all;}
+.social-links i::nth-child(1){padding-left:0.5rem;}
+.social-links i:hover{color:#646464;background-color:#fff;}
+#offer{margin:0 auto;cursor:pointer;display:block;width:80%;border:3px solid #fff;border-radius:100px;transition:0.2s all;padding:10px;}
+#offer a{text-decoration:none;color:#fff;}
+#offer:hover a{color:#646464;}
+#offer:hover{background-color:#fff;}
+.modal img{width:100%;}
+.close{background-color:transparent;border:none;position:absolute;right:2rem;top:1rem;font-size:3rem;}
+.modal-title{font-weight:800;font-size:2rem;}
+.modal-btn{text-align:center;color:#fff;background-color:#333;padding:1rem;text-decoration:none;display:block;width:60%;border:3px solid #333;border-radius:100px;text-transform:none;transition:0.2s all;}
+.modal-btn:hover a{text-decoration:none;color:#646464;}
+.modal-btn:hover{background-color:#fff;}
